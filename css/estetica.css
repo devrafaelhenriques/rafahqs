@@ -646,24 +646,16 @@ textarea:focus {
 }
 
 @media only screen and (max-width: 600px) {
+    /* Remover barra de rolagem horizontal */
     body {
-        font-size: 14px; /* Reduz o tamanho da fonte */
-    }
-    
-    .menu li {
-        margin-right: 10px; /* Reduz o espaçamento entre os itens do menu */
+        overflow-x: hidden;
     }
 
-    /* Estilos específicos para a seção de portfólio */
-    .portfolio-container {
-        flex-direction: column; /* Muda o layout para coluna */
-        align-items: center; /* Alinha os itens ao centro */
-    }
-
+    /* Ajustar largura da imagem do portfólio */
     .portfolio-img img {
-        width: 80%; /* Reduz o tamanho das imagens */
-        margin: 10px 0; /* Adiciona espaçamento entre as imagens */
+        width: 90%; /* Ajustar largura para ocupar 90% da largura da tela */
+        max-width: 300px; /* Definir largura máxima para evitar que a imagem fique muito grande */
+        height: auto; /* Permitir que a altura seja ajustada automaticamente para manter a proporção */
+        margin: 10px auto; /* Centralizar a imagem horizontalmente e adicionar margem superior e inferior */
     }
-
-    /* Adicione outras regras de estilo específicas para dispositivos móveis conforme necessário */
 }
