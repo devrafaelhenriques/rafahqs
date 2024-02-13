@@ -14,8 +14,6 @@ function toggleTheme() {
     // Obtém o tema atual após a troca
     const currentTheme = body.classList.contains("light-theme") ? "light-theme" : "dark-theme";
 
-    // Salva a preferência do usuário
-    localStorage.setItem("theme", currentTheme);
 }
 
 // Exemplo de uso com um botão
