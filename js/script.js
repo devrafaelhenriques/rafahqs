@@ -99,17 +99,3 @@ if (location.pathname.match(/\.html$/)) {
     var newURL = location.pathname.replace(/\.html$/, '');
     window.history.replaceState({}, null, newURL);
 }
-
-
-// Função para alternar a visibilidade do menu ao clicar no botão
-function toggleMenu() {
-    var menuList = document.getElementById("menu-list");
-    if (menuList.style.display === "block") {
-        menuList.style.display = "none";
-    } else {
-        menuList.style.display = "block";
-    }
-}
-
-// Adiciona um ouvinte de evento ao botão de menu
-document.getElementById("menu-button").addEventListener("click", toggleMenu);
