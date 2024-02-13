@@ -45,3 +45,57 @@ document.querySelector('li a[href="#portfoliog"]').addEventListener('click', fun
     // Rola suavemente até a seção com o ID "portfoliog"
     scrollToSection('portfoliog');
 });
+
+
+// transição logo
+window.addEventListener('load', function() {
+    var imagem = document.getElementById('logo');
+    imagem.style.opacity = 0;
+
+    var fadeIn = function(timestamp) {
+        imagem.style.opacity = Math.min(1, parseFloat(imagem.style.opacity) + 0.01); // Ajuste a velocidade conforme necessário
+        if (parseFloat(imagem.style.opacity) < 1) {
+            window.requestAnimationFrame(fadeIn);
+        }
+    };
+
+    window.requestAnimationFrame(fadeIn); // Inicia o processo de fade-in
+});
+
+
+/* FAQ */
+
+const buttons = document.querySelectorAll('.perguntas button');
+
+buttons.forEach(button => {
+    button.addEventListener('click', () => {
+        const faq = button.parentElement.querySelector('p');
+        const icon = button.querySelector('.seta');
+
+        // Verifica se o FAQ está visível ou não
+        const isVisible = faq.style.maxHeight;
+
+        // Remove a classe 'show' de todos os FAQs
+        document.querySelectorAll('.perguntas p').forEach(item => {
+            item.style.maxHeight = null;
+        });
+
+        // Adiciona ou remove a altura máxima no FAQ clicado
+        if (!isVisible || isVisible === '0px') {
+            faq.style.maxHeight = faq.scrollHeight + "px";
+        } else {
+            faq.style.maxHeight = null;
+        }
+
+        // Girar a seta para cima ou para baixo
+        icon.classList.toggle('rotate');
+    });
+});
+
+
+
+// Remover a extensão .html da URL
+if (location.pathname.match(/\.html$/)) {
+    var newURL = location.pathname.replace(/\.html$/, '');
+    window.history.replaceState({}, null, newURL);
+}
