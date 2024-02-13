@@ -99,3 +99,10 @@ if (location.pathname.match(/\.html$/)) {
     var newURL = location.pathname.replace(/\.html$/, '');
     window.history.replaceState({}, null, newURL);
 }
+
+
+// menu para mobile
+function toggleMenu() {
+    var menu = document.getElementById('menu');
+    menu.classList.toggle('show');
+}
