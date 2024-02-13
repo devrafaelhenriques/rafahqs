@@ -615,28 +615,38 @@ textarea:focus {
 /* ADAPTAÇÃO PARA TELAS */
 
 @media only screen and (max-width: 992px) {
+
     .header {
+
         padding: 15px;
     }
 
     .menu {
+
         justify-content: center;
+
     }
 
     .menu li {
+
         margin-right: 15px;
+        
     }
 }
 
 /* Estilos para telas pequenas */
 @media only screen and (max-width: 768px) {
     .header {
+
         padding: 10px;
+
     }
 
     .menu li {
+
         margin-bottom: 10px;
         margin-right: 0;
+
     }
 
     .botoes-container {
@@ -648,36 +658,43 @@ textarea:focus {
     }
 
     .botoes-container button {
+
         margin-bottom: 10px;
+
     }
 
     #frase {
+
         font-size: 1.5rem;
         line-height: 1.4; 
         text-align: center;
         padding: 0 20px;
+
     }
 
 }
 
 @media only screen and (max-width: 600px) {
-    /* Remover barra de rolagem horizontal */
     body {
+
         overflow-x: hidden;
+
     }
 
-    /* Ajustar largura da imagem do portfólio */
     .portfolio-img img {
+
         width: 90%;
         max-width: 300px;
         height: auto;
         margin: 10px auto;
+
     }
 
-    /* Ajustar a largura da logo */
     #logo {
+
         width: 80%; 
         max-width: 360px; 
         margin: 0 auto; 
+
     }
 }
