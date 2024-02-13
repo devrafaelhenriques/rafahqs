@@ -162,6 +162,13 @@ a {
     color: #ae00ff; /* Cor desejada ao passar o mouse */
 }
 
+/* Ocultar o botão de menu na versão para desktop */
+.mobile-menu {
+
+    display: none;
+
+}
+
 /* FIM MENU */
 
 #logo {
@@ -651,6 +658,10 @@ textarea:focus {
 
         transition: all 450ms ease;
 
+    }
+
+    .mobile-menu {
+        display: block;
     }
 }
 
