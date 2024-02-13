@@ -82,7 +82,7 @@
 * {
 
     scrollbar-width: thin;
-    scrollbar-color: rgb(49, 49, 49) rgb(255, 255, 255);
+    scrollbar-color: blueviolet transparent;
 
 }
 
@@ -91,11 +91,13 @@
 *::-webkit-scrollbar {
 
     width: 12px;
+
 }
 
 *::-webkit-scrollbar-track {
 
     background: transparent;
+
   }
   
 *::-webkit-scrollbar-thumb {
@@ -103,6 +105,7 @@
     background-color: blueviolet;
     border-radius: 20px;
     border: 1px solid white;
+
 }
 
 /* FIM SCROLLBAR */
