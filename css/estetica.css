@@ -228,13 +228,16 @@ h1 {
 
 }
 
+#port1,
 #port1:hover {
-
-    transform: scale(1.03);
     transition: all 1s ease;
-    opacity: 1;
-
 }
+
+#port1:hover {
+    transform: scale(1.03);
+    opacity: 1;
+}
+
 
 hr {
 
@@ -255,13 +258,16 @@ hr {
 
 }
 
+#port2,
 #port2:hover {
-
-    transform: scale(1.03);
     transition: all 1s ease;
-    opacity: 1;
-
 }
+
+#port2:hover {
+    transform: scale(1.03);
+    opacity: 1;
+}
+
 
 #vem {
 
@@ -279,6 +285,14 @@ hr {
     font-weight: bold;
     font-size: 24px;
 
+}
+
+#vem:hover, #vem {
+    transition: all 750ms ease;
+}
+
+#vem:hover {
+    transform: scale(1.06);
 }
 
 /* SOBRE MIM */
@@ -472,6 +486,14 @@ iframe {
     justify-content: center; /* Centralizar os botões horizontalmente */
     gap: 20px; /* Espaçamento entre os botões */
 
+}
+
+#sub:hover, #sub {
+    transition: all 750ms ease;
+}
+
+#sub:hover {
+    transform: scale(1.06);
 }
 
 #sub {
