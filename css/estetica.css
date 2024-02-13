@@ -650,19 +650,6 @@ textarea:focus {
         display: none; /* Inicialmente, oculta o menu em dispositivos móveis */
     }
 
-    .menu.show {
-        display: block; /* Exibe o menu quando a classe .show é aplicada */
-    }
-
-    .menu:hover {
-
-        transition: all 450ms ease;
-
-    }
-
-    .mobile-menu {
-        display: block;
-    }
 }
 
 @media only screen and (max-width: 600px) {
