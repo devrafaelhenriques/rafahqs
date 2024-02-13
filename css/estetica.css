@@ -644,3 +644,26 @@ textarea:focus {
         margin-right: 0;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px; /* Reduz o tamanho da fonte */
+    }
+    
+    .menu li {
+        margin-right: 10px; /* Reduz o espaçamento entre os itens do menu */
+    }
+
+    /* Estilos específicos para a seção de portfólio */
+    .portfolio-container {
+        flex-direction: column; /* Muda o layout para coluna */
+        align-items: center; /* Alinha os itens ao centro */
+    }
+
+    .portfolio-img img {
+        width: 80%; /* Reduz o tamanho das imagens */
+        margin: 10px 0; /* Adiciona espaçamento entre as imagens */
+    }
+
+    /* Adicione outras regras de estilo específicas para dispositivos móveis conforme necessário */
+}
