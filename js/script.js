@@ -101,8 +101,15 @@ if (location.pathname.match(/\.html$/)) {
 }
 
 
-// menu para mobile
+// Função para alternar a visibilidade do menu ao clicar no botão
 function toggleMenu() {
-    var menu = document.getElementById('menu');
-    menu.classList.toggle('show');
+    var menuList = document.getElementById("menu-list");
+    if (menuList.style.display === "block") {
+        menuList.style.display = "none";
+    } else {
+        menuList.style.display = "block";
+    }
 }
+
+// Adiciona um ouvinte de evento ao botão de menu
+document.getElementById("menu-button").addEventListener("click", toggleMenu);
