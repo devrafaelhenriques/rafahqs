@@ -642,8 +642,15 @@ textarea:focus {
     .menu {
         display: none; /* Inicialmente, oculta o menu em dispositivos móveis */
     }
+
     .menu.show {
         display: block; /* Exibe o menu quando a classe .show é aplicada */
+    }
+
+    .menu:hover {
+
+        transition: all 450ms ease;
+
     }
 }
 
@@ -655,30 +662,16 @@ textarea:focus {
 
     /* Ajustar largura da imagem do portfólio */
     .portfolio-img img {
-        width: 90%; /* Ajustar largura para ocupar 90% da largura da tela */
-        max-width: 300px; /* Definir largura máxima para evitar que a imagem fique muito grande */
-        height: auto; /* Permitir que a altura seja ajustada automaticamente para manter a proporção */
-        margin: 10px auto; /* Centralizar a imagem horizontalmente e adicionar margem superior e inferior */
+        width: 90%;
+        max-width: 300px;
+        height: auto;
+        margin: 10px auto;
     }
 
     /* Ajustar a largura da logo */
     #logo {
-        width: 80%; /* Definir a largura da logo para 80% da largura da tela */
-        max-width: 250px; /* Definir uma largura máxima para a logo */
-        margin: 0 auto; /* Centralizar a logo horizontalmente */
-    }
-
-    /* Centralizar o menu */
-    .menu {
-        text-align: center; /* Centralizar os itens do menu */
-    }
-
-    .menu li {
-        display: inline-block; /* Alterar a exibição dos itens do menu para linha */
-        margin: 0 10px; /* Adicionar margem entre os itens do menu */
-    }
-
-    .menu a {
-        display: block; /* Alterar a exibição dos links para bloco */
+        width: 80%; 
+        max-width: 250px; 
+        margin: 0 auto; 
     }
 }
