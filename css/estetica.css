@@ -665,4 +665,19 @@ textarea:focus {
         max-width: 250px; /* Definir uma largura máxima para a logo */
         margin: 0 auto; /* Centralizar a logo horizontalmente */
     }
+
+    /* Centralizar o menu */
+    .menu {
+        text-align: center; /* Centralizar os itens do menu */
+    }
+
+    .menu li {
+        display: block; /* Alterar a exibição dos itens do menu para bloco */
+        margin-right: 0; /* Remover a margem direita dos itens do menu */
+        margin-bottom: 10px; /* Adicionar espaçamento entre os itens do menu */
+    }
+
+    .menu a {
+        display: inline-block; /* Alterar a exibição dos links para bloco */
+    }
 }
