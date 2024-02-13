@@ -658,4 +658,11 @@ textarea:focus {
         height: auto; /* Permitir que a altura seja ajustada automaticamente para manter a proporção */
         margin: 10px auto; /* Centralizar a imagem horizontalmente e adicionar margem superior e inferior */
     }
+
+    /* Ajustar a largura da logo */
+    #logo {
+        width: 80%; /* Definir a largura da logo para 80% da largura da tela */
+        max-width: 250px; /* Definir uma largura máxima para a logo */
+        margin: 0 auto; /* Centralizar a logo horizontalmente */
+    }
 }
