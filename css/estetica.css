@@ -71,6 +71,10 @@
     color: black;
 }
 
+.light-theme .perguntas-container p {
+    color: black;
+}
+
 /* SCROLLBAR */
 
 /* Firefox */
