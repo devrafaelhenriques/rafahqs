@@ -67,6 +67,10 @@
     color: black;
 }
 
+.light-theme .habilidades p {
+    color: black;
+}
+
 /* SCROLLBAR */
 
 /* Firefox */
@@ -630,7 +634,7 @@ textarea:focus {
     .menu li {
 
         margin-right: 15px;
-        
+
     }
 }
 
