@@ -186,32 +186,6 @@ a {
 
 }
 
-#cv {
-
-    background-color: rgb(121, 61, 177);
-    color: rgb(255, 255, 255);
-    padding: 15px 60px;
-    text-align: center;
-    flex-wrap: wrap;
-    border-radius: 80px;
-    cursor: pointer;
-    border: none;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: bold;
-    font-size: 24px;
-    margin: auto;
-    display: flex;
-
-}
-
-#cv:hover, #cv {
-    transition: all 750ms ease;
-}
-
-#cv:hover {
-    transform: scale(1.06);
-}
-
 #frase {
 
     font-size: 50px;
@@ -371,6 +345,27 @@ hr {
     transform: scale(1.03);
     opacity: 1;
 }
+
+#port6 {
+
+    border-radius: 30px;
+    display: block;
+    opacity: 0.6; /* Define a opacidade inicial para a imagem */
+    transition: opacity 0.3s ease; /* Adiciona uma transição suave à opacidade */
+    position: relative;
+
+}
+
+#port6,
+#port6:hover {
+    transition: all 1s ease;
+}
+
+#port6:hover {
+    transform: scale(1.03);
+    opacity: 1;
+}
+
 
 #vem {
 
