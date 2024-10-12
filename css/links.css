@@ -123,3 +123,38 @@ footer {
     color: white;
 
 }
+
+
+
+@media (max-width: 768px) {
+    header {
+        margin: 10px 0;
+        height: auto;
+    }
+
+    .menu img {
+        max-width: 100px;
+    }
+
+    .links-container {
+        margin-top: 30px;
+    }
+
+    #link1, #link2, #link3, #link4, #link5, #link6 {
+        width: 90%; /* Botões ocupam 90% da largura disponível */
+        font-size: 16px;
+    }
+
+    footer {
+        margin-top: 20px;
+    }
+
+    .icones {
+        display: flex;
+        justify-content: center; /* Garante a centralização no mobile */
+        align-items: center;
+        gap: 15px;
+        width: 100%; /* Garante que os ícones usem toda a largura disponível */
+        padding: 0;
+    }
+}
