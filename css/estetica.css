@@ -386,6 +386,26 @@ hr {
     opacity: 1;
 }
 
+#port8 {
+
+    border-radius: 30px;
+    display: block;
+    opacity: 0.6; /* Define a opacidade inicial para a imagem */
+    transition: opacity 0.3s ease; /* Adiciona uma transição suave à opacidade */
+    position: relative;
+
+}
+
+#port8,
+#port8:hover {
+    transition: all 1s ease;
+}
+
+#port8:hover {
+    transform: scale(1.03);
+    opacity: 1;
+}
+
 
 #vem {
 
