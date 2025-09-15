@@ -63,7 +63,8 @@ hr {
 
 #link1, #link2,
 #link3, #link4,
-#link5, #link6 {
+#link5, #link6,
+#link7 {
 
     background-color: transparent;
     color: rgb(148, 0, 216);
@@ -79,7 +80,8 @@ hr {
 
 #link1:hover, #link2:hover,
 #link3:hover, #link4:hover,
-#link5:hover, #link6:hover {
+#link5:hover, #link6:hover,
+#link7:hover {
 
     background-color: rgb(148, 0, 216);
     color: white;
@@ -158,3 +160,4 @@ footer {
         padding: 0;
     }
 }
+
